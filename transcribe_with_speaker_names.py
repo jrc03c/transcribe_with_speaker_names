@@ -24,12 +24,11 @@ def transcribe_with_speaker_names(
         return datetime.timedelta(seconds=round(secs))
 
     # get path parts
-    path_parts = path.split("/")
-    dir = ("/").join(path_parts[:-1])
-    filename = path_parts[-1]
+    dir = os.path.dirname(path)
+    filename = os.path.basename(path)
     filename_parts = filename.split(".")
     filename_without_extension = (".").join(filename_parts[:-1])
-    extension = filename_parts[-1]
+    extension = filename_parts[-1].lower()
 
     # get pretrained speaker model
     embedding_model = PretrainedSpeakerEmbedding(
