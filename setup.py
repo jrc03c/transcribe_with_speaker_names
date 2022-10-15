@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="transcribe_with_speaker_names",
-    version="0.0.1",
+    version="0.0.2",
     description="A packaging of a Google Colab notebook by @dwarkesh_sp",
     url="https://github.com/jrc03c/transcribe_with_speaker_names",
     author="jrc03c",

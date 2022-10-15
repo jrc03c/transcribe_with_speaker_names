@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: transcribe-with-speaker-names
-Version: 0.0.1
+Version: 0.0.2
 Summary: A packaging of a Google Colab notebook by @dwarkesh_sp
 Home-page: https://github.com/jrc03c/transcribe_with_speaker_names
 Author: jrc03c
