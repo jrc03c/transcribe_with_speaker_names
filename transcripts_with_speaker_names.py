@@ -1,17 +1,3 @@
-"""
-
-Originally by @dwarkesh_sp, packaged by @jrc03c
-https://twitter.com/dwarkesh_sp/status/1579672641887408129?s=46&t=8yLFQ2vByL6vA61wFVJCvA
-
-High level overview of what's happening here:
-
-1.   I'm using Open AI's Whisper model to seperate audio into segments and generate transcripts.
-2.   I'm then generating speaker embeddings for each segments.
-3.   Then I'm using agglomerative clustering on the embeddings to identify the speaker for each segment.   
-
-Let me know if I can make it better!
-"""
-
 from pyannote.audio import Audio
 from pyannote.audio.pipelines.speaker_verification import PretrainedSpeakerEmbedding
 from pyannote.core import Segment
