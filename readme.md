@@ -22,8 +22,8 @@ Here were Dwarkesh's comments in his Google Colab notebook:
 
 ```bash
 pip install -U \
-	git+https://github.com/jrc03c/transcribe_with_speaker_names
-	git+https://github.com/openai/whisper.git \
+    git+https://github.com/jrc03c/transcribe_with_speaker_names
+    git+https://github.com/openai/whisper.git \
     git+https://github.com/pyannote/pyannote-audio
 ```
 
