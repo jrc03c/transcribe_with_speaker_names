@@ -1,4 +1,6 @@
 __pycache__
+paperspace-push.sh
+paperspace-pull.sh
 *.mp3
 *.MP3
 *.wav
