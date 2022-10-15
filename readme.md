@@ -13,7 +13,7 @@ To summarize Dwarkesh's notes, the main steps in his algorithm are:
 ```bash
 pip install -U \
     git+https://github.com/jrc03c/transcribe_with_speaker_names \
-    git+https://github.com/openai/whisper.git \
+    git+https://github.com/openai/whisper \
     git+https://github.com/pyannote/pyannote-audio
 ```
 
