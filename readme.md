@@ -15,7 +15,7 @@ Here were Dwarkesh's comments in his Google Colab notebook:
 # Installation
 
 ```bash
-pip install \
+pip install -U \
 	git+https://github.com/jrc03c/transcribe_with_speaker_names
 	whisper \
 	pyannote.audio
