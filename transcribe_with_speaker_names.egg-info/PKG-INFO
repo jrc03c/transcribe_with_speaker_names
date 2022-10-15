@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: transcribe-with-speaker-names
+Version: 0.0.1
+Summary: A packaging of a Google Colab notebook by @dwarkesh_sp
+Home-page: https://github.com/jrc03c/transcribe_with_speaker_names
+Author: jrc03c
+Author-email: jrc03c@pm.me
+License: none
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+
+UNKNOWN
+
