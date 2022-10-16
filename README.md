@@ -34,13 +34,13 @@ segments = transcribe_with_speaker_names(
 # do something with `segments` ...
 ```
 
-## Parameters
-
 The function returns an array of segments, which are just simple objects with these properties:
 
 - `speaker` = an integer representing which speaker is speaking in the segment
 - `time` = a string in the format `"hh:mm:ss"` representing the time at which the segment started
 - `text` = a string representing the words spoken by the speaker during the segment
+
+## Parameters
 
 ### `[path]`
 
